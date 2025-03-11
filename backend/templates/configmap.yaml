@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: dai-backend
+data:
+  MX_MONGO_URI: mongodb://admin@mongodb:27017/
+  MX_MONGO_DATABASE: db2
+  MX_LLM_PROVIDER_TYPE: anthropic
+  MX_OLLAMA_MODEL_NAME: incept5/llama3.1-claude
+  # MX_OLLAMA_MODEL_NAME=sqlcoder
+  MX_OLLAMA_API_URL: http://api.ollama.meshx.dev/api
+  MX_ANTHROPIC_API_KEY: {}
+  MX_ANTHROPIC_MODEL_NAME: claude-3-7-sonnet-20250219
+  MX_ENABLE_CACHE_PREPOPULATION: true
+  MX_CACHE_PREPOPULATION_INTERVAL: 300
