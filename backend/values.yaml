@@ -19,6 +19,16 @@ imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
 
+config:
+  anthropic:
+    enabled: false
+  ollama:
+    enabled: false
+  mongo: 
+    uri: mongodb://admin@mongodb:27017/
+    secretName: "dai-mongo"
+    secretKey: "password"
+
 # This section builds out the service account more information can be found here: https://kubernetes.io/docs/concepts/security/service-accounts/
 serviceAccount:
   # Specifies whether a service account should be created
