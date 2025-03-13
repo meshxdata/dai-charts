@@ -39,6 +39,8 @@ spec:
           envFrom:
           - configMapRef:
               name: foundation-backend
+          - configMapRef:
+              name: dai-backend
           ports:
             - name: http
               containerPort: {{ .Values.service.port }}
