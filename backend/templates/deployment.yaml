@@ -41,6 +41,8 @@ spec:
               name: foundation-backend
           - configMapRef:
               name: dai-backend
+          - secretRef:
+              name: hive-metastore-minio-credentials
           ports:
             - name: http
               containerPort: {{ .Values.service.port }}
