@@ -4,7 +4,7 @@ metadata:
   name: dai-backend
 data:
   MX_MONGO_URI: "mongodb://admin@mongodb:27017/"
-  MX_MONGO_DATABASE: db2
+  MX_MONGO_DATABASE: "db2"
   MX_LLM_PROVIDER_TYPE: anthropic
   MX_OLLAMA_MODEL_NAME: "incept5/llama3.1-claude"
   MX_OLLAMA_API_URL: "http://api.ollama.meshx.dev/api"
