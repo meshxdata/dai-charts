@@ -43,6 +43,14 @@ spec:
               name: dai-backend
           - secretRef:
               name: hive-metastore-minio-credentials
+          env:
+          {{- range .Values.env }}
+            - name: {{ .name | quote }}
+              valueFrom:
+                secretKeyRef:
+                  name: {{ .secretName | quote }}
+                  key: {{ .secretKey | quote }}
+          {{- end }}
           ports:
             - name: http
               containerPort: {{ .Values.service.port }}
