@@ -14,6 +14,6 @@ spec:
     - port: 8001
       targetPort: http
       protocol: TCP
-      name: http
+      name: http-stream
   selector:
     {{- include "backend.selectorLabels" . | nindent 4 }}
