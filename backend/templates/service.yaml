@@ -12,7 +12,7 @@ spec:
       protocol: TCP
       name: http
     - port: 8001
-      targetPort: http
+      targetPort: 8001
       protocol: TCP
       name: http-stream
   selector:
