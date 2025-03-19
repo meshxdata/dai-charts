@@ -3,9 +3,9 @@ entries:
   backend:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-03-19T12:54:56.122169+01:00"
+    created: "2025-03-19T13:09:01.155908+01:00"
     description: A Helm chart for Kubernetes
-    digest: 8ab918be2b8402468ade1362e7310cc9c8d1c88c59df63c4b81a84768fbdc912
+    digest: 53b3340cda6b77a053411f3c9635a8b0acfcc0b93e0c6d929affcdaf7f460468
     name: backend
     type: application
     urls:
@@ -13,7 +13,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-03-19T12:54:56.120582+01:00"
+    created: "2025-03-19T13:09:01.155652+01:00"
     description: A Helm chart for Kubernetes
     digest: 41e33156399c9333ea2e62c346287807a93f30c80d0869e0e6df1d313778c402
     name: backend
@@ -23,7 +23,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-03-19T12:54:56.120133+01:00"
+    created: "2025-03-19T13:09:01.155064+01:00"
     description: A Helm chart for Kubernetes
     digest: 5d66ba14bed13beba1a4da8526c31a71f705a7d1942d0cead9a81cebcc842884
     name: backend
@@ -34,7 +34,7 @@ entries:
   frontend:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-03-19T12:54:56.123422+01:00"
+    created: "2025-03-19T13:09:01.157055+01:00"
     description: A Helm chart for Kubernetes
     digest: c895d7517bd34d1f03060cd535fd9137d11585594158711b18aa7ea3e607aba3
     name: frontend
@@ -44,7 +44,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-03-19T12:54:56.123028+01:00"
+    created: "2025-03-19T13:09:01.156718+01:00"
     description: A Helm chart for Kubernetes
     digest: 385edcac4896ac0f876099d4fbedb4377241df20e415158e6588e9ccbd88b4a2
     name: frontend
@@ -54,7 +54,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-03-19T12:54:56.122602+01:00"
+    created: "2025-03-19T13:09:01.156326+01:00"
     description: A Helm chart for Kubernetes
     digest: 7de221cc8a8fbe81e5e1825e4e0001aa246d91abeec3d8e6bddf7481fb6b3ead
     name: frontend
@@ -62,4 +62,4 @@ entries:
     urls:
     - frontend-0.1.0.tgz
     version: 0.1.0
-generated: "2025-03-19T12:54:56.119535+01:00"
+generated: "2025-03-19T13:09:01.15437+01:00"
