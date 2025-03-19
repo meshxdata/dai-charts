@@ -70,7 +70,7 @@ spec:
             {{- toYaml .Values.securityContext | nindent 12 }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
-          command: ["bash", "-c", "while true; do echo 'Hello, World!'; sleep 1; done"]
+          command: ["streamlit", "run", "src/app.py", "--server.port", "8001"]
           envFrom:
           - configMapRef:
               name: foundation-backend
