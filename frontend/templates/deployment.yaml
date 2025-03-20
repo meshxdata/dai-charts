@@ -37,8 +37,6 @@ spec:
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           env:
-            - name: HOST
-              value: {{ .Values.env.host }}
             - name: API_URL
               value: {{ .Values.env.api_url }}
           ports:
