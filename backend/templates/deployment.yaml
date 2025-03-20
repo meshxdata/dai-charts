@@ -80,6 +80,8 @@ spec:
               name: dai-backend
           - secretRef:
               name: hive-metastore-minio-credentials
+          - secretRef:
+              name: dai-backend
           env:
           {{- range .Values.env }}
             - name: {{ .name | quote }}
