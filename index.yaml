@@ -3,9 +3,19 @@ entries:
   backend:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-03-20T08:37:07.255581+01:00"
+    created: "2025-03-20T12:19:12.25355+01:00"
     description: A Helm chart for Kubernetes
-    digest: bdadb084a4a86f9128ad76d3cbda046ca9c289987f20128221d7a60525b27151
+    digest: e1a3c76dafb9975eea7139342b0afc1b710f6a907c896e09853994cd114f24ae
+    name: backend
+    type: application
+    urls:
+    - backend-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-03-20T12:19:12.25331+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 8ca107a2335a557c3253e812e13275ecafcd11ecb2dfef9445de16e77acd754e
     name: backend
     type: application
     urls:
@@ -13,7 +23,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-03-20T08:37:07.255206+01:00"
+    created: "2025-03-20T12:19:12.253045+01:00"
     description: A Helm chart for Kubernetes
     digest: 41e33156399c9333ea2e62c346287807a93f30c80d0869e0e6df1d313778c402
     name: backend
@@ -23,7 +33,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-03-20T08:37:07.254785+01:00"
+    created: "2025-03-20T12:19:12.252596+01:00"
     description: A Helm chart for Kubernetes
     digest: 5d66ba14bed13beba1a4da8526c31a71f705a7d1942d0cead9a81cebcc842884
     name: backend
@@ -34,7 +44,7 @@ entries:
   frontend:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-03-20T08:37:07.256538+01:00"
+    created: "2025-03-20T12:19:12.254835+01:00"
     description: A Helm chart for Kubernetes
     digest: 19846e6b4d1d7ff106af8cffeb0490cc1a71e08b120e7f67df3d541ab682e7a6
     name: frontend
@@ -44,7 +54,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-03-20T08:37:07.256315+01:00"
+    created: "2025-03-20T12:19:12.254419+01:00"
     description: A Helm chart for Kubernetes
     digest: 385edcac4896ac0f876099d4fbedb4377241df20e415158e6588e9ccbd88b4a2
     name: frontend
@@ -54,7 +64,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-03-20T08:37:07.255977+01:00"
+    created: "2025-03-20T12:19:12.253966+01:00"
     description: A Helm chart for Kubernetes
     digest: 7de221cc8a8fbe81e5e1825e4e0001aa246d91abeec3d8e6bddf7481fb6b3ead
     name: frontend
@@ -62,4 +72,4 @@ entries:
     urls:
     - frontend-0.1.0.tgz
     version: 0.1.0
-generated: "2025-03-20T08:37:07.254272+01:00"
+generated: "2025-03-20T12:19:12.252039+01:00"
